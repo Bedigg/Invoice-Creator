@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+    background: #F5F5F5;
+    padding: 20px 0px;
+    color: #2B283A;
+}
+
+.title h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.title p{
+    font-size: 16;
+}
+
+.container-cart{
+    display: flex;
+    justify-content: space-between;
+    width: 473px;
+    margin: 20px auto 0px auto;
+}
+
+.options button{
+    background: #FFFFFF;
+    color: #4A4E74;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.options button:active{
+    border: 2px solid #4A4E74;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.task-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-container{
+    width: 473px;
+    margin: 20px auto 0px auto;
+    position: relative;
+}
+
+.task-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-item-btn{
+    border: none;
+    background: white;
+    color: #918E9B;
+    font-size: 8px;
+    padding:0px;
+    padding-left: 5px;
+}
+
+.remove-item-btn:hover{
+    color: black;
+}
+.remove-item-btn:active{
+    color: #16DB99;
+}
+
+.right-between p{
+    color: #4A4E74;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.task-between p{
+    font-size: 24px;
+    color: #4A4E74;
+}
+
+.task-between p span{
+    color: #918E9B;
+    font-size: 24px;
+}
+
+.right-between{
+    display: flex;
+}
+
+.line, .line-two{
+    color: #918E9B;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-two{
+    margin-top: 35px;
+    border-top:1px solid #C3C6DB;
+}
+
+.total{
+    font-size: 36px;
+    font-weight: 600;
+margin-top: 0;
+margin-right: 0;
+}
+
+.default{
+    color: #918E9B;
+}
+
+.plus{
+    color: #4A4E74;
+}
+
+.total-container{
+    margin-top:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-in-container{
+float: inline-end;
+}
+
+.accept{
+    color: #4A4E74;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.invoice-btn{
+    background-color: #3770ED;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 190px;
+    border-radius: 7px;
+}
+
+.fa-solid{
+    color: #FFFFFF;
+    margin-right: 5px;
+}
